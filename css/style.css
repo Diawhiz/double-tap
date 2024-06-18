@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(1, 1, 19);
+    color: #fff;
+}
+
+#username {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+}
+
+#username span {
+    padding: 5px;
+    margin-right: 2px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.post {
+    background-color: #fff;
+    margin: 2vh 40vw 0 40vw;
+    padding: 3px;
+    display: block;
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.post img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.post p {
+    text-align: left;
+}
+
+.post #icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#liked {
+    color: #ff0000;
+}

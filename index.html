@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double tap to like feature</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="post" ondblclick="post()">
+        <div id="username">
+            <span><i class="fas fa-user fa-lg" aria-hidden="true"></i></span>
+            <p>Anime_planet</p>
+        </div>
+        <img src="images/luffy.jpg" alt="Luffy gear 5">
+        <p>Monkey D Luffy is the main protagonist of One Piece. He is after becoming the king of the pirates by finding the one piece Gold D Roger talked about before his death.</p>
+        <span id="icons">
+            <i class="far fa-heart fa-lg" aria-hidden="true" id="like"></i>
+            <i class="far fa-comment fa-lg" aria-hidden="true"></i>
+            <i class="far fa-share-from-square fa-lg" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
